@@ -1,10 +1,18 @@
 {
     "plugins": [
-        "disqus"
+        "disqus",
+        "github",
+        "ga"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "httpnotes"
+        },
+        "github": {
+            "url": "https://github.com/Gaohaoyang/http-notes"
+        },
+        "ga": {
+            "token": "UA-72449510-1"
         }
     }
 }
