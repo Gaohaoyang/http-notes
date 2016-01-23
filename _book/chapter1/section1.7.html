@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>各种协议与 HTTP 协议的关系 | Introduction</title>
+        <title>URI 和 URL | Introduction</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.6">
@@ -53,10 +53,10 @@
         
     
     
-    <link rel="next" href="../chapter1/section1.7.html" />
+    <link rel="next" href="../chapter2/index.html" />
     
     
-    <link rel="prev" href="../chapter1/section1.5.html" />
+    <link rel="prev" href="../chapter1/section1.6.html" />
     
 
         
@@ -65,9 +65,9 @@
         
         
     <div class="book"
-        data-level="1.6"
-        data-chapter-title="各种协议与 HTTP 协议的关系"
-        data-filepath="chapter1/section1.6.md"
+        data-level="1.7"
+        data-chapter-title="URI 和 URL"
+        data-filepath="chapter1/section1.7.md"
         data-basepath=".."
         data-revision="Sat Jan 23 2016 18:09:17 GMT+0800 (中国标准时间)"
         data-innerlanguage="">
@@ -189,7 +189,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6" data-path="chapter1/section1.6.html">
+        <li class="chapter " data-level="1.6" data-path="chapter1/section1.6.html">
             
                 
                     <a href="../chapter1/section1.6.html">
@@ -204,7 +204,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="chapter1/section1.7.html">
+        <li class="chapter active" data-level="1.7" data-path="chapter1/section1.7.html">
             
                 
                     <a href="../chapter1/section1.7.html">
@@ -307,9 +307,28 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x5404;&#x79CD;&#x534F;&#x8BAE;&#x4E0E;-http-&#x534F;&#x8BAE;&#x7684;&#x5173;&#x7CFB;"><a name="&#x5404;&#x79CD;&#x534F;&#x8BAE;&#x4E0E;-http-&#x534F;&#x8BAE;&#x7684;&#x5173;&#x7CFB;" class="plugin-anchor" href="#&#x5404;&#x79CD;&#x534F;&#x8BAE;&#x4E0E;-http-&#x534F;&#x8BAE;&#x7684;&#x5173;&#x7CFB;"><span class="fa fa-link"></span></a>&#x5404;&#x79CD;&#x534F;&#x8BAE;&#x4E0E; HTTP &#x534F;&#x8BAE;&#x7684;&#x5173;&#x7CFB;</h1>
-<p><img src="http://ww2.sinaimg.cn/large/7011d6cfjw1f01m3t9tatj20l20t6dkc.jpg" alt=""></p>
-<div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#各种协议与-http-协议的关系'>各种协议与 HTTP 协议的关系</a></li></ul></div><a href='#各种协议与-http-协议的关系' id='goTop'><i class='fa fa-arrow-up'></i></a>
+                        <h1 id="uri-&#x548C;-url"><a name="uri-&#x548C;-url" class="plugin-anchor" href="#uri-&#x548C;-url"><span class="fa fa-link"></span></a>URI &#x548C; URL</h1>
+<p>URI&#xFF08;Uniform Resource Identifier&#xFF09;&#x7EDF;&#x4E00;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7B26;&#x3002;</p>
+<p>URL&#xFF08;Uniform Resource Locator&#xFF09;&#x7EDF;&#x4E00;&#x8D44;&#x6E90;&#x5B9A;&#x4F4D;&#x7B26;&#x3002;</p>
+<h2 id="&#x7EDF;&#x4E00;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7B26;"><a name="&#x7EDF;&#x4E00;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7B26;" class="plugin-anchor" href="#&#x7EDF;&#x4E00;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7B26;"><span class="fa fa-link"></span></a>&#x7EDF;&#x4E00;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7B26;</h2>
+<p>URI&#xFF08;Uniform Resource Identifier&#xFF09;</p>
+<ul>
+<li><p>Uniform</p>
+<p>  &#x89C4;&#x5B9A;&#x7EDF;&#x4E00;&#x7684;&#x683C;&#x5F0F;&#x53EF;&#x65B9;&#x4FBF;&#x5904;&#x7406;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x800C;&#x4E0D;&#x7528;&#x6839;&#x636E;&#x4E0A;&#x4E0B;&#x6587;&#x73AF;&#x5883;&#x6765;&#x8BC6;&#x522B;&#x8D44;&#x6E90;&#x6307;&#x5B9A;&#x7684;&#x8BBF;&#x95EE;&#x65B9;&#x5F0F;&#x3002;</p>
+</li>
+<li><p>Resource</p>
+<p>  &#x8D44;&#x6E90;&#x7684;&#x5B9A;&#x4E49;&#x662F;&#x201C;&#x53EF;&#x6807;&#x8BC6;&#x7684;&#x4EFB;&#x4F55;&#x4E1C;&#x897F;&#x201D;&#x3002;</p>
+</li>
+<li><p>Identifier</p>
+<p>  &#x8868;&#x793A;&#x53EF;&#x6807;&#x8BC6;&#x7684;&#x5BF9;&#x8C61;&#x3002;&#x4E5F;&#x79F0;&#x4E3A;&#x6807;&#x8BC6;&#x7B26;&#x3002;</p>
+</li>
+</ul>
+<p>&#x7EFC;&#x4E0A;&#xFF0C;URI&#x5C31;&#x662F;&#x7531;&#x67D0;&#x4E2A;&#x534F;&#x8BAE;&#x65B9;&#x6848;&#x8868;&#x793A;&#x7684;&#x8D44;&#x6E90;&#x7684;&#x5B9A;&#x4F4D;&#x6807;&#x8BC6;&#x7B26;&#x3002;</p>
+<p>URI &#x7528;&#x5B57;&#x7B26;&#x4E32;&#x6807;&#x8BC6;&#x67D0;&#x4E00;&#x4E92;&#x8054;&#x7F51;&#x8D44;&#x6E90;&#xFF0C;&#x800C; URL &#x8868;&#x793A;&#x8D44;&#x6E90;&#x7684;&#x5730;&#x70B9;&#xFF08;&#x4E92;&#x8054;&#x7F51;&#x4E0A;&#x6240;&#x5904;&#x7684;&#x4F4D;&#x7F6E;&#xFF09;&#x3002;&#x53EF;&#x89C1; URL &#x662F; URI &#x7684;&#x5B50;&#x96C6;&#x3002;</p>
+<p>&#x5728;&#x5145;&#x5206;&#x7406;&#x89E3;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x4E5F;&#x53EF;&#x7528; URL &#x4EE3;&#x66FF; URI&#x3002;</p>
+<h2 id="uri-&#x7684;&#x683C;&#x5F0F;"><a name="uri-&#x7684;&#x683C;&#x5F0F;" class="plugin-anchor" href="#uri-&#x7684;&#x683C;&#x5F0F;"><span class="fa fa-link"></span></a>URI &#x7684;&#x683C;&#x5F0F;</h2>
+<p><img src="http://ww3.sinaimg.cn/large/7011d6cfjw1f09l6wmfobj20hv043mxm.jpg" alt=""></p>
+<div id='anchors-navbar'><i class='fa fa-anchor'></i><ul><li><a href='#uri-和-url'>URI 和 URL</a></li><ul><li><a href='#统一资源标识符'>统一资源标识符</a></li><li><a href='#uri-的格式'>URI 的格式</a></li></ul></ul></div><a href='#uri-和-url' id='goTop'><i class='fa fa-arrow-up'></i></a>
                     
                     </section>
                 
@@ -319,10 +338,10 @@
         </div>
 
         
-        <a href="../chapter1/section1.5.html" class="navigation navigation-prev " aria-label="Previous page: 负责域名解析的 DNS 服务"><i class="fa fa-angle-left"></i></a>
+        <a href="../chapter1/section1.6.html" class="navigation navigation-prev " aria-label="Previous page: 各种协议与 HTTP 协议的关系"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../chapter1/section1.7.html" class="navigation navigation-next " aria-label="Next page: URI 和 URL"><i class="fa fa-angle-right"></i></a>
+        <a href="../chapter2/index.html" class="navigation navigation-next " aria-label="Next page: 简单的 HTTP 协议"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
